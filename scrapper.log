@@ -42,3 +42,26 @@ INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/main.css H
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/style.css HTTP/1.1" 200 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.29.196:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.196 - - [03/Mar/2024 23:59:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.196 - - [03/Mar/2024 23:59:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.196 - - [03/Mar/2024 23:59:07] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.196 - - [03/Mar/2024 23:59:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:192.168.29.196 - - [04/Mar/2024 00:00:13] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:192.168.29.196 - - [04/Mar/2024 00:00:44] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:192.168.29.196 - - [04/Mar/2024 00:01:09] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2024 00:01:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2024 00:01:24] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2024 00:01:24] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2024 00:01:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2024 00:01:47] "POST /review HTTP/1.1" 200 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2024 00:01:49] "POST /review HTTP/1.1" 200 -
